@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--手机状态栏颜色-->
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorPrimaryDarkContentActivity">#343439</color><!--contentActivity中使用的状态栏颜色-->
+    <color name="colorPrimary">#FF5A61</color><!--app中的主色调-->
+    <color name="colorAccent">#FF4081</color><!--例如对FloatingActionButton中的背景色-->
+    <color name="windowBackground">#f2f4f5</color><!--window的默认背景的颜色-->
+    <color name="textColorPrimary">#333333</color><!--text的默认的颜色-->
+
+
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. 不使用ActionBar-->
+    <style name="AppTheme" parent="ApplicationTheme">
+        <!-- 项目主题 -->
+    </style>
+
+    <style name="AppThemeContentActivity" parent="ApplicationTheme.contentActivity">
+        <!-- 项目中处于ContentActivity中的主题 -->
+    </style>
+
+    <!--重写自己的Theme-->
+    <style name="ApplicationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!--状态栏的深色-->
+        <item name="colorPrimary">@color/colorPrimary</item><!--toolbar中默认的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item><!--窗口的背景颜色-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item> <!--字体的主要色调-->
+    </style>
+    <!--在项目的首页面，对于手机的状态栏要求的颜色和别的地方不同,对这个类进行单独的主题设计-->
+    <style name="ApplicationTheme.contentActivity" parent="ApplicationTheme">
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkContentActivity</item> <!--状态栏的深色-->
+    </style>
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

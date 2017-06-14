@@ -1,0 +1,19 @@
+<resources>
+    <!--android 5.0 配置-->
+    <style name="AppTheme" parent="ApplicationTheme">
+        <!-- 项目中处于ContentActivity中的主题 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--状态栏的修改为true，此时的颜色为透明，并且用到MD5.0的设计规范中的-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppThemeContentActivity" parent="ApplicationTheme.contentActivity">
+        <!-- 项目中处于ContentActivity中的主题 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--状态栏的修改为true，此时的颜色为透明，并且用到MD5.0的设计规范中的-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
